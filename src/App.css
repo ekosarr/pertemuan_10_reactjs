@@ -1,0 +1,83 @@
+.Parentbox{
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 100px;
+}
+ 
+.Foto{
+  float: left;
+ width: 750px;
+  background: whitesmoke;
+}
+ 
+.Foto img{
+  width: 400px;
+}
+ 
+.Deskripsi{
+  width: 40%;
+  overflow: hidden;
+  float: left;
+  margin-left: 30px;
+}
+ 
+.Deskripsi .Info {
+  line-height: 1.8;
+  color: rgb(18, 11, 49);
+}
+ 
+.Deskripsi .Price{
+  font-size: 20px;
+  font-weight: 500;
+}
+ 
+.Deskripsi .Title {
+  margin: 0;
+}
+ 
+.Deskripsi .Cate {
+  color: #acaeb2;
+}
+
+.Deskripsi .Warna .Black:hover {
+  background-color: rgb(4, 8, 8);
+}
+.Deskripsi .Warna .Silver:hover {
+  background-color: rgb(203, 216, 214);
+}
+.Deskripsi .Warna .Gold:hover {
+  background-color: rgb(241, 217, 81);
+}
+.Deskripsi .Warna .Purple:hover {
+  background-color: rgb(172, 45, 223);
+}
+.Deskripsi .Warna .Black {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(5, 3, 3);
+  margin-right: 20px;
+  border-radius: 100%;
+}
+.Deskripsi .Warna .Silver {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(235, 240, 239);
+  margin-right: 20px;
+  border-radius: 100%;
+}
+.Deskripsi .Warna .Gold {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(230, 133, 6);
+  margin-right: 20px;
+  border-radius: 100%;
+}
+.Deskripsi .Warna .Purple {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(206, 56, 236);
+  margin-right: 20px;
+  border-radius: 100%;
+}
+
